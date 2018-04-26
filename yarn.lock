@@ -136,13 +136,13 @@
     "@theia/monaco" "^0.3.7"
     ts-md5 "^1.2.2"
 
-"@theia/cli@latest":
+"@theia/cli@0.3.7":
   version "0.3.7"
   resolved "https://registry.yarnpkg.com/@theia/cli/-/cli-0.3.7.tgz#af34fe95d2beac121ce2ee2b0228efbf4ff52f42"
   dependencies:
     "@theia/application-package" "^0.3.7"
 
-"@theia/core@0.3.7", "@theia/core@^0.3.7", "@theia/core@latest":
+"@theia/core@0.3.7", "@theia/core@^0.3.7":
   version "0.3.7"
   resolved "https://registry.yarnpkg.com/@theia/core/-/core-0.3.7.tgz#43591880283ffcab6dffd7979aa038bdd6368403"
   dependencies:
@@ -169,14 +169,14 @@
     ws "^3.0.0"
     yargs "^9.0.1"
 
-"@theia/editor@^0.3.7", "@theia/editor@latest":
+"@theia/editor@0.3.7", "@theia/editor@^0.3.7":
   version "0.3.7"
   resolved "https://registry.yarnpkg.com/@theia/editor/-/editor-0.3.7.tgz#e1caac003ee56a6a4d377031c2c93e6798de0452"
   dependencies:
     "@theia/core" "^0.3.7"
     "@theia/languages" "^0.3.7"
 
-"@theia/filesystem@^0.3.7", "@theia/filesystem@latest":
+"@theia/filesystem@0.3.7", "@theia/filesystem@^0.3.7":
   version "0.3.7"
   resolved "https://registry.yarnpkg.com/@theia/filesystem/-/filesystem-0.3.7.tgz#a0679736c16bf21af0879db25bdea3255632e547"
   dependencies:
@@ -191,7 +191,7 @@
     touch "^3.1.0"
     trash "^4.0.1"
 
-"@theia/languages@^0.3.7", "@theia/languages@latest":
+"@theia/languages@0.3.7", "@theia/languages@^0.3.7":
   version "0.3.7"
   resolved "https://registry.yarnpkg.com/@theia/languages/-/languages-0.3.7.tgz#fd98c186cee85eb1a44fc940246b4b0380cb767f"
   dependencies:
@@ -201,7 +201,7 @@
     vscode-base-languageclient "^0.0.1-alpha.3"
     vscode-languageserver "^3.4.0"
 
-"@theia/markers@^0.3.7", "@theia/markers@latest":
+"@theia/markers@0.3.7", "@theia/markers@^0.3.7":
   version "0.3.7"
   resolved "https://registry.yarnpkg.com/@theia/markers/-/markers-0.3.7.tgz#55a1f9c91dd2b58de6ef3452e64c965feedf8620"
   dependencies:
@@ -209,13 +209,13 @@
     "@theia/filesystem" "^0.3.7"
     "@theia/workspace" "^0.3.7"
 
-"@theia/messages@latest":
+"@theia/messages@0.3.7":
   version "0.3.7"
   resolved "https://registry.yarnpkg.com/@theia/messages/-/messages-0.3.7.tgz#60146291cb5f429fd45b9a08a9c54a2fb09346a4"
   dependencies:
     "@theia/core" "^0.3.7"
 
-"@theia/monaco@^0.3.7", "@theia/monaco@latest":
+"@theia/monaco@0.3.7", "@theia/monaco@^0.3.7":
   version "0.3.7"
   resolved "https://registry.yarnpkg.com/@theia/monaco/-/monaco-0.3.7.tgz#2ab93f1324b319cd477f7abfec62fc455be3c8bc"
   dependencies:
@@ -232,7 +232,7 @@
     monaco-languageclient "^0.4.0"
     monaco-languages "^0.9.0"
 
-"@theia/navigator@latest":
+"@theia/navigator@0.3.7":
   version "0.3.7"
   resolved "https://registry.yarnpkg.com/@theia/navigator/-/navigator-0.3.7.tgz#1a5ec089c06c0edd6b0d7228c3546b986316213b"
   dependencies:
@@ -252,7 +252,7 @@
   dependencies:
     "@theia/core" "^0.3.7"
 
-"@theia/preferences@latest":
+"@theia/preferences@0.3.7":
   version "0.3.7"
   resolved "https://registry.yarnpkg.com/@theia/preferences/-/preferences-0.3.7.tgz#d83964cf8233024db2be0ddb73e7afffa1c10e44"
   dependencies:
@@ -264,7 +264,7 @@
     fs-extra "^4.0.2"
     jsonc-parser "^1.0.1"
 
-"@theia/process@^0.3.7", "@theia/process@latest":
+"@theia/process@0.3.7", "@theia/process@^0.3.7":
   version "0.3.7"
   resolved "https://registry.yarnpkg.com/@theia/process/-/process-0.3.7.tgz#bc1e98a0fb027bab6eec0894f05660553d79e11f"
   dependencies:
@@ -272,7 +272,7 @@
     node-pty "^0.7.0"
     string-argv "0.0.2"
 
-"@theia/terminal@latest":
+"@theia/terminal@0.3.7":
   version "0.3.7"
   resolved "https://registry.yarnpkg.com/@theia/terminal/-/terminal-0.3.7.tgz#0daf10ef26b0407e832cbbff435a68d68cb294ca"
   dependencies:
@@ -282,7 +282,7 @@
     "@theia/workspace" "^0.3.7"
     xterm "^3.0.1"
 
-"@theia/typescript@latest":
+"@theia/typescript@0.3.7":
   version "0.3.7"
   resolved "https://registry.yarnpkg.com/@theia/typescript/-/typescript-0.3.7.tgz#84cae9e35891d225627caefe2ab46095661778bc"
   dependencies:
@@ -300,7 +300,7 @@
     "@theia/core" "^0.3.7"
     "@theia/filesystem" "^0.3.7"
 
-"@theia/workspace@^0.3.7", "@theia/workspace@latest":
+"@theia/workspace@0.3.7", "@theia/workspace@^0.3.7":
   version "0.3.7"
   resolved "https://registry.yarnpkg.com/@theia/workspace/-/workspace-0.3.7.tgz#9a8201f988dacdd1f00c9608446d9ef020b3704d"
   dependencies:

@@ -16,7 +16,7 @@ import { injectable } from 'inversify';
  */
 enum VarNames {
     /* Che API endpoint location */
-    CHE_API = 'CHE_API',
+    CHE_INTERNAL_API = 'CHE_INTERNAL_API',
 
     /* Che user identifier */
     CHE_USER_ID = 'CHE_USER_ID',
@@ -44,7 +44,7 @@ export class EnvVars {
      * @returns {string | undefined}
      */
     get cheApi() {
-        return this.vars.get(VarNames.CHE_API);
+        return this.vars.get(VarNames.CHE_INTERNAL_API);
     }
 
     /**
