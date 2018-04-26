@@ -1,0 +1,38 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Backend",
+            "program": "${workspaceRoot}/browser-app/src-gen/backend/main.js",
+            "args": [
+                "--log-level=debug",
+                "--port=3000",
+                "--no-cluster",
+                "--app-project-path=${workspaceRoot}/browser-app/",
+                "--no-app-auto-install"
+            ],
+            "env": {
+                "NODE_ENV": "development"
+            },
+            "sourceMaps": true,
+            "outFiles": [
+                "${workspaceRoot}/browser-app/src-gen/backend/*.js",
+                "${workspaceRoot}/browser-app/lib/**/*.js",
+                "${workspaceRoot}/packages/*/lib/**/*.js",
+                "${workspaceRoot}/dev-packages/*/lib/**/*.js"
+            ],
+            "smartStep": true,
+            "internalConsoleOptions": "openOnSessionStart",
+            "outputCapture": "std"
+        },
+        {
+            "name": "Launch Frontend",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:3000/",
+            "webRoot": "${workspaceRoot}"
+        }
+    ]
+}
